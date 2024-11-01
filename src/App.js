@@ -19,7 +19,7 @@ function App() {
       else
         return newTodo;
     })
-    setTodos([...updatedTodos]);
+    setTodos([...updatedTodos]); //Yeni bir diziye koyulmasının sebebi componentin yeniden rende edilmesi
   }
   const removeTodo = (todoId) => {
     setTodos(todos.filter((todo) => (todo.id !== todoId)));
