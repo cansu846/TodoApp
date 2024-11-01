@@ -1,6 +1,6 @@
 # Todo List App Using React
 
-## The project has the following functions
+The project has the following functions__
 - Add todo
 - Update todo
 - Delete todo
